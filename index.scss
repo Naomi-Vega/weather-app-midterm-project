@@ -5,8 +5,9 @@
   }
   
   body{
-    font-family: "Nunito",sans-serif;
+    font-family: 'Dosis', sans-serif;
     background: #f8f8f8;
+    margin: 50px;
   }
   
   .input{
@@ -19,7 +20,7 @@
     background: #e7e7e7;
     border: none;
     border-radius: 1px;
-    font-family: "Nunito",sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight:bold;
     font-size: 20px;
   }
@@ -31,7 +32,7 @@
     background: #e7e7e7;
     border: none;
     border-radius: 1px;
-    font-family: "Nunito",sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-weight:bold;
     font-size: 20px;
   }
@@ -44,6 +45,21 @@
     border-radius: 2px;
   }
   
+  .middle-container {
+    width: 50%;
+    background: #e7e7e7;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+  }
+
+  .bottom-container {
+    width: 50%;
+    background: #e7e7e7;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 2px;
+  }
   
   .close{
     float: right;
