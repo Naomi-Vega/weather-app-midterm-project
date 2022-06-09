@@ -1,31 +1,47 @@
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>OpenWeatherMap Api</title>
-  <link rel="stylesheet" href="index.scss">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpenWeatherMap Api</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/55f60bf8e7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="header">
-      <h1>OpenWeatherMap API</h1>
-      <p>Enter any city name in the input box below to get the data</p>
+        <h1>OpenWeatherMap API</h1>
+        <p>Enter any city name in the input box below to get the data</p>
     </div>
-  
-    <div class="input">
-      <input type="text" placeholder="Enter the city" class="input_text">
-      <input type="submit" value="Submit" class="submit">
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="card">
-      <h1 class="name" id="name"></h1>
-      <p class="temp"></p>
-      <p class="clouds"></p>
-      <p class="desc"></p>
+    <div class="input">
+        <input type="text" placeholder="Enter the city" class="input_text">
+        <input type="submit" value="Search" class="submit">
     </div>
-  </div>
-<script src="index.js"></script>
+    <div class="favorites">
+        
+    </div>
+    <div class="container">
+        <div class="card">
+            <h1 class="name" id="name"></h1>
+            <p class="temp"></p>
+            <p class="clouds"></p>
+            <p class="desc"></p>
+        </div>
+    </div>
+    <div class="middle-container">
+        <h1>Daily Forecast - 5 days</h1>
+    </div>
+    <div class="bottom-container">
+        <h1>3 Hour Range</h1>
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
